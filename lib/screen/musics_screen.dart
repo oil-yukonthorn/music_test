@@ -3,10 +3,10 @@ import 'package:get/get.dart';
 import 'package:music_test/controller/music_controller.dart';
 import 'package:music_test/models/music_model.dart';
 
-class MusicApp extends StatelessWidget {
+class MusicsScreen extends StatelessWidget {
   final MusicController controller = Get.put(MusicController());
 
-  MusicApp({super.key});
+  MusicsScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
